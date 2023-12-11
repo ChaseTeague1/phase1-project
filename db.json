@@ -1,0 +1,39 @@
+{
+    "offers": [
+      {
+        "id": 1,
+        "name": "Dresser",
+        "image": "https://www.ikea.com/us/en/images/products/nordli-8-drawer-dresser-white__0598635_pe677738_s5.jpg?f=xl",
+        "description": "A great dresser with a beautiful white paint color",
+        "price" : "$200"
+      },
+      {
+        "id": 2,
+        "name": "Lamp",
+        "image": "https://www.signals.com/graphics/products/regular/HBB086_1.jpg",
+        "description": "This is a humoniod lamp that I am currently trying to sell for anyone looking.",
+        "price" : "$100"
+      },
+      {
+        "id": 3,
+        "name": "Bed",
+        "image": "https://www.ikea.com/us/en/images/products/idanaes-bed-frame-dark-brown-luroey__1063810_ph182860_s5.jpg?f=xl",
+        "description": "A great bed for barely used for sell.",
+        "price" : "$350"
+      },
+      {
+        "id": 4,
+        "name": "Car",
+        "image": "https://img2.carmax.com/assets/23645197/hero.jpg?width=800&height=450",
+        "description": "Low miles hardly driven, just wanting something a bit cheaper.",
+        "price" : "$4000"
+      },
+      {
+        "id": 5,
+        "name": "Motorcycle",
+        "image": "https://global.yamaha-motor.com/business/mc/lineup/yzf-r/img/sec00_01_yzf-r1.jpg",
+        "description": "Runs perfect, blue paint to make it stand out, message for an offer.",
+        "price" : "$2500"
+      }
+    ]
+  }
