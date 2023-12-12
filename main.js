@@ -1,3 +1,5 @@
+// assign the form element to a variable.
+const postForm = document.getElementById('post-form');
 document.addEventListener('DOMContentLoaded', loadOffers)
 
 function loadOffers(){
@@ -8,13 +10,24 @@ function loadOffers(){
     }))
 }
 
-/*
-assign the form element to a variable.
-create a function to fetch offers.
-on page load display created offers.
-iterate through every offer and assign each of them a card to be displayed.
-create an offer button for each card.
-create a comment section for each card.
-create an add offer button that will allow user to post an offer
-create a light mode and dark mode button.
-*/
+
+
+// create a function to fetch offers.
+function offersInfo(offer){
+    let offerName = document.createElement('h2')
+    let offerImg = document.createElement('img')
+    let offerPrice = document.createElement('p')
+    let offerDescrip = document.createElement('p');
+
+    let card = document.createElement('div');
+    let cardContainer = document.getElementById('card-container')
+    card.className = 'card';
+    cardContainer.appendChild(card);
+}
+
+// on page load display created offers.
+// iterate through every offer and assign each of them a card to be displayed.
+// create an offer button for each card.
+// create a comment section for each card.
+// create an add offer button that will allow user to post an offer
+// create a light mode and dark mode button.
