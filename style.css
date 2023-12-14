@@ -6,5 +6,48 @@
     height: 25rem;
     display: inline-grid;
     margin: 1rem 2rem;
-    box-shadow: 3px 4px #e04b52
+    box-shadow: 2px 3px grey;
+    border-radius: 5px;
   }
+
+.image {
+    justify-self: center;
+    height: 12rem;
+    width: auto;
+    border: grey solid 1px;
+    border-radius: 5px;
+}
+
+#page-header{
+    font-size: 50px;
+}
+
+#item-name {
+    width: auto;
+    height: none;
+    padding: none;
+    margin: 1px;
+    text-align: center;
+}
+
+#user-name {
+    margin: 1px;
+    text-align: center;
+    font-size: large;
+}
+
+#item-price{
+    margin: none;
+    padding: none;
+    width: auto;
+    height: none;
+    text-align: center;
+}
+
+#offer-button {
+    background-color: #357EC7;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    justify-self: center;
+}

@@ -19,6 +19,11 @@ function offersInfo(offer){
     let offerPrice = document.createElement('p')
     let offerDescrip = document.createElement('p');
 
+    offerName.textContent = offer.name;
+    offerImg.src = offer.image;
+    offerPrice.textContent = offer.price;
+    offerDescrip.textContent = offer.description;
+
     let card = document.createElement('div');
     let cardContainer = document.getElementById('card-container')
     card.className = 'card';

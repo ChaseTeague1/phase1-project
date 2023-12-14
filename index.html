@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phase 1 Project</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <header id="page-header">Dream Deals</header>
     <div class="container">
         <form id="post-form" class="add-post-form">
             <input type="text" class="input-name" value="" placeholder="Enter item name">
@@ -13,7 +15,16 @@
             <input type="submit" class="submit" value="Create Listing">
         </form>
     </div>
-    <div id ="card-containter" class="card-containter"></div>
+    <div id ="card-containter" class="card-containter">
+        <div class="card">
+            <h1 id="item-name">Lamp</h1>
+            <p id="user-name">By: Chase Teague</p>
+            <img class="image" src="https://www.signals.com/graphics/products/regular/HBB086_1.jpg" alt="lamp picture">
+            <h4 id="item-price">$250</h4>
+            <p id="description">Humonid lamp with arms and legs, provides great lighting</p>
+            <button id="offer-button">Make Offer</button>
+        </div>
+    </div>
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
