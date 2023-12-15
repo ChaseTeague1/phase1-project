@@ -1,38 +1,14 @@
-// assign the form element to a variable.
-const postForm = document.getElementById('post-form');
+//*****DISPLAY PREVIOUS OFFERS FROM DB.JSON ON PAGE LOAD******//
+//create an event listener to listen for page load.
 document.addEventListener('DOMContentLoaded', loadOffers)
 
-function loadOffers(){
+//make a callback function to pass event listener
+function loadOffers(offer){
+//callback function will fetch and load offers creating each offer its on card
     fetch('http://localhost:3000/offers')
     .then(res => res.json())
     .then(offers => offers.forEach(offer => {
-        console.log(offer)
-    }))
+        offerInfo(offer)
+    }));
 }
 
-
-
-// create a function to fetch offers.
-function offersInfo(offer){
-    let offerName = document.createElement('h2')
-    let offerImg = document.createElement('img')
-    let offerPrice = document.createElement('p')
-    let offerDescrip = document.createElement('p');
-
-    offerName.textContent = offer.name;
-    offerImg.src = offer.image;
-    offerPrice.textContent = offer.price;
-    offerDescrip.textContent = offer.description;
-
-    let card = document.createElement('div');
-    let cardContainer = document.getElementById('card-container')
-    card.className = 'card';
-    cardContainer.appendChild(card);
-}
-
-// on page load display created offers.
-// iterate through every offer and assign each of them a card to be displayed.
-// create an offer button for each card.
-// create a comment section for each card.
-// create an add offer button that will allow user to post an offer
-// create a light mode and dark mode button.
