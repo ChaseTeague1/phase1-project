@@ -13,7 +13,7 @@
 .image {
     justify-self: center;
     height: 12rem;
-    width: auto;
+    width: 14rem;
     border: grey solid 1px;
     border-radius: 5px;
 }
@@ -45,7 +45,7 @@
     text-align: center;
 }
 
-#offer-button {
+.offer-button {
     background-color: #357EC7;
     border: none;
     border-radius: 4px;
