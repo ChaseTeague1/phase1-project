@@ -34,3 +34,15 @@ function offerInfo(offer){
     //append card variable to the card container
     cardContainer.appendChild(card)
 }
+
+//*****ADD LISTING BUTTON VIA POST REQUEST********//
+//grab form element and assign to variable
+const form = document.querySelector(".add-post-form");
+//grab create listing button
+const addListing = document.querySelector('.submit');
+//create on submit event listener for form
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+})
+//create callback function that holds POST request
+//create a newOffer element that will be appended to cardContainer on submit

@@ -13,10 +13,8 @@ This project will be using json server, so make sure you are running $ json-serv
 -------------------------------------------------------------------------------------
 FEATURES
 -------------------------------------------------------------------------------------
-* Dark mode - incase the bright screen is to much for ones eyes
-* Make an offer button - to make an offer to buy someones exisiting post
+* Buy button - to buy someones exisiting post
 * Add listing button - to add a listing on the page
-* Comment section - for each post it will contain an area to leave a comment that you may have about the post
 
 -------------------------------------------------------------------------------------
 CONCLUSION
