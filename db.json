@@ -11,14 +11,14 @@
         "id": 2,
         "name": "Lamp",
         "image": "https://www.signals.com/graphics/products/regular/HBB086_1.jpg",
-        "description": "This is a humoniod lamp that I am currently trying to sell for anyone looking.",
+        "description": "This is a humoniod lamp that I am currently trying to sell.",
         "price" : "$100"
       },
       {
         "id": 3,
         "name": "Bed",
         "image": "https://www.ikea.com/us/en/images/products/idanaes-bed-frame-dark-brown-luroey__1063810_ph182860_s5.jpg?f=xl",
-        "description": "A great bed for barely used for sell.",
+        "description": "A great bed for new adults, barely used for sell.",
         "price" : "$350"
       },
       {

@@ -39,12 +39,18 @@
 
 #item-price{
     margin: none;
+    border: none;
     padding: none;
     width: auto;
     height: none;
     text-align: center;
 }
 
+#description {
+    margin: none;
+    padding: none; 
+    position: relative;
+}
 .offer-button {
     background-color: #357EC7;
     border: none;
@@ -52,6 +58,7 @@
     width: 100px;
     height: 25px;
     justify-self: center;
+    position: relative;
 }
 
 .input-name {
@@ -78,7 +85,9 @@
     width: 500px;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 3px;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
   }
 .input-price {
     border-radius: 5px;
@@ -105,3 +114,9 @@
     width: 100px;
     height: 100px;
   }
+
+  .card-container{
+   display: flex;
+   flex-wrap: wrap;
+  }
+  
