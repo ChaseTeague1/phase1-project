@@ -62,6 +62,16 @@ function offerInfo(offer){
     //append card variable to the card container
     cardContainer.appendChild(card)
 
+    //creating button click event
+    buyBtn.addEventListener('click', () => {
+        console.log('I was clicked');
+        //create alert that displays what you are purchasing 
+        alert(`Purchasing ${offer.name.toLowerCase()}....`)
+        //setTimeOut for 2 seconds after purchase to confirm purchase is complete
+        setTimeout(() => {
+            alert('Thank you for your purchase!')
+        }, 2000)
+    })
 }
 
 //*****ADD LISTING BUTTON VIA POST REQUEST********//
@@ -91,3 +101,4 @@ function createOffer(){
         cardContainer.append(newOffer)
     })
 }
+
