@@ -33,20 +33,35 @@ function loadOffers(){
 
 //create a function called offerInfo that will take in an offer and create a card for it
 function offerInfo(offer){
+    //create all card info elements and there info 
+    let itemName = document.createElement('h1');
+    itemName.id = 'item-name'
+    itemName.innerHTML = `${offer.name}`;
+
+    let itemImage = document.createElement('img');
+    itemImage.className = 'image';
+    itemImage.src = `${offer.image}`;
+
+    let itemPrice = document.createElement('h4');
+    itemPrice.id = 'item-price';
+    itemPrice.innerHTML = `$${offer.price}`;
+
+    let itemDescrip = document.createElement('p');
+    itemDescrip.id = 'description';
+    itemDescrip.innerHTML = `${offer.description}`;
+
+    let buyBtn = document.createElement('button');
+    buyBtn.id = `${offer.id}`;
+    buyBtn.className = 'offer-button';
+    buyBtn.textContent = 'Buy';
     //create a card variable
     let card = document.createElement('div');
+    card.className = 'card';
     //populate card innerHtml with each offers info
-    card.innerHTML = `
-    <div class="card">
-        <h1 id="item-name">${offer.name}</h1>
-        <img class="image" src="${offer.image}">
-        <h4 id="item-price">$${offer.price}</h4>
-        <p id="description">${offer.description}</p>
-        <button class ="offer-button" id="${offer.id}">Make Offer</button>
-    </div>
-    `
+    card.append(itemName, itemImage, itemPrice, itemDescrip, buyBtn);
     //append card variable to the card container
     cardContainer.appendChild(card)
+
 }
 
 //*****ADD LISTING BUTTON VIA POST REQUEST********//
@@ -76,9 +91,3 @@ function createOffer(){
         cardContainer.append(newOffer)
     })
 }
-
-//******MAKING THE BUY BUTTON WORK*********/
-//grab the buy button and assign to a variable
-//create a click event listener for the button
-//on click create an alert message that says 'purchasing...'
-//create a setTimeOut after 2 secords creates another alert message thanking you for your purchase of the item clicked
