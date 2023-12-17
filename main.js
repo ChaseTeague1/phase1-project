@@ -76,3 +76,9 @@ function createOffer(){
         cardContainer.append(newOffer)
     })
 }
+
+//******MAKING THE BUY BUTTON WORK*********/
+//grab the buy button and assign to a variable
+//create a click event listener for the button
+//on click create an alert message that says 'purchasing...'
+//create a setTimeOut after 2 secords creates another alert message thanking you for your purchase of the item clicked

@@ -41,6 +41,13 @@
       "description": "Red boat, very used, needs new paint job and new motor on the back.",
       "price": "500",
       "id": 6
+    },
+    {
+      "name": "Phone",
+      "image": "https://i.pcmag.com/imagery/roundups/06rXQR6OvkMvD1ZECixVoKJ-20..v1697047164.jpg",
+      "description": "new phone barley used no cracked screen",
+      "price": "200",
+      "id": 7
     }
   ]
 }
