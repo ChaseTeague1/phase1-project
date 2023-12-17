@@ -1,39 +1,46 @@
 {
-    "offers": [
-      {
-        "id": 1,
-        "name": "Dresser",
-        "image": "https://www.ikea.com/us/en/images/products/nordli-8-drawer-dresser-white__0598635_pe677738_s5.jpg?f=xl",
-        "description": "A great dresser with a beautiful white paint color",
-        "price" : "$200"
-      },
-      {
-        "id": 2,
-        "name": "Lamp",
-        "image": "https://www.signals.com/graphics/products/regular/HBB086_1.jpg",
-        "description": "This is a humoniod lamp that I am currently trying to sell.",
-        "price" : "$100"
-      },
-      {
-        "id": 3,
-        "name": "Bed",
-        "image": "https://www.ikea.com/us/en/images/products/idanaes-bed-frame-dark-brown-luroey__1063810_ph182860_s5.jpg?f=xl",
-        "description": "A great bed for new adults, barely used for sell.",
-        "price" : "$350"
-      },
-      {
-        "id": 4,
-        "name": "Car",
-        "image": "https://media.istockphoto.com/id/170107445/photo/white-smart-car.jpg?s=612x612&w=0&k=20&c=PRHWIYHunkjEy0K8CusBaNc-KHgF_s0sXxNHMmCuRwA=",
-        "description": "Low miles hardly driven, just wanting something a bit cheaper.",
-        "price" : "$4000"
-      },
-      {
-        "id": 5,
-        "name": "Motorcycle",
-        "image": "https://global.yamaha-motor.com/business/mc/lineup/yzf-r/img/sec00_01_yzf-r1.jpg",
-        "description": "Runs perfect, blue paint to make it stand out, message for an offer.",
-        "price" : "$2500"
-      }
-    ]
-  }
+  "offers": [
+    {
+      "id": 1,
+      "name": "Dresser",
+      "image": "https://www.ikea.com/us/en/images/products/nordli-8-drawer-dresser-white__0598635_pe677738_s5.jpg?f=xl",
+      "description": "A great dresser with a beautiful white paint color",
+      "price": "200"
+    },
+    {
+      "id": 2,
+      "name": "Lamp",
+      "image": "https://www.signals.com/graphics/products/regular/HBB086_1.jpg",
+      "description": "This is a humoniod lamp that I am currently trying to sell.",
+      "price": "100"
+    },
+    {
+      "id": 3,
+      "name": "Bed",
+      "image": "https://www.ikea.com/us/en/images/products/idanaes-bed-frame-dark-brown-luroey__1063810_ph182860_s5.jpg?f=xl",
+      "description": "A great bed for new adults, barely used for sell.",
+      "price": "350"
+    },
+    {
+      "id": 4,
+      "name": "Car",
+      "image": "https://media.istockphoto.com/id/170107445/photo/white-smart-car.jpg?s=612x612&w=0&k=20&c=PRHWIYHunkjEy0K8CusBaNc-KHgF_s0sXxNHMmCuRwA=",
+      "description": "Low miles hardly driven, just wanting something a bit cheaper.",
+      "price": "4000"
+    },
+    {
+      "id": 5,
+      "name": "Motorcycle",
+      "image": "https://global.yamaha-motor.com/business/mc/lineup/yzf-r/img/sec00_01_yzf-r1.jpg",
+      "description": "Runs perfect, blue paint to make it stand out, message for an offer.",
+      "price": "2500"
+    },
+    {
+      "name": "Boat",
+      "image": "https://images.unsplash.com/photo-1631994299194-1d712dfd19b4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNtYWxsJTIwYm9hdHxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "Red boat, very used, needs new paint job and new motor on the back.",
+      "price": "500",
+      "id": 6
+    }
+  ]
+}
