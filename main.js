@@ -66,7 +66,7 @@ function offerInfo(offer){
     buyBtn.addEventListener('click', () => {
         console.log('I was clicked');
         //create alert that displays what you are purchasing 
-        alert(`Purchasing ${offer.name.toLowerCase()}....`)
+        confirm(`Are you sure you want to purchase ${offer.name.toLowerCase()}?`)
         //setTimeOut for 2 seconds after purchase to confirm purchase is complete
         setTimeout(() => {
             alert('Thank you for your purchase!')
