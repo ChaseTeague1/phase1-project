@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', (e) => {
         console.log('I am working')
         e.preventDefault();
-        createOffer(e.target);
+        createOffer();
         form.reset();
     })
     loadOffers();

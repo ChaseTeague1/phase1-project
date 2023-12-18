@@ -36,17 +36,17 @@
       "price": "2500"
     },
     {
-      "name": "Boat",
+      "name": "Boat ",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPFjVo3gSrki26Df6s7PGoBoHp3lDft79quA&usqp=CAU",
-      "description": "Red boat with 2 paddles and a motor on the back, needs replacing",
-      "price": "400",
+      "description": "Red boat needs new motor and comes with the 2 paddles.",
+      "price": "500",
       "id": 6
     },
     {
-      "name": "Boat",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPFjVo3gSrki26Df6s7PGoBoHp3lDft79quA&usqp=CAU",
-      "description": "Red boat, very used, needs new paint job and new motor on the back.",
-      "price": "500",
+      "name": "Iphone",
+      "image": "https://s.yimg.com/ny/api/res/1.2/sfW7O8el6or6YK4qaKI65Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://s.yimg.com/os/creatr-uploaded-images/2023-09/0c2567f0-57b1-11ee-bf6d-dc35a3f809ab",
+      "description": "Brand new Iphone straight out of the box, no scratches or marks.",
+      "price": "300",
       "id": 7
     }
   ]
