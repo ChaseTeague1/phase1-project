@@ -34,6 +34,20 @@
       "image": "https://global.yamaha-motor.com/business/mc/lineup/yzf-r/img/sec00_01_yzf-r1.jpg",
       "description": "Runs perfect, blue paint to make it stand out, message for an offer.",
       "price": "2500"
+    },
+    {
+      "name": "Boat",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPFjVo3gSrki26Df6s7PGoBoHp3lDft79quA&usqp=CAU",
+      "description": "Red boat with 2 paddles and a motor on the back, needs replacing",
+      "price": "400",
+      "id": 6
+    },
+    {
+      "name": "Boat",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPFjVo3gSrki26Df6s7PGoBoHp3lDft79quA&usqp=CAU",
+      "description": "Red boat, very used, needs new paint job and new motor on the back.",
+      "price": "500",
+      "id": 7
     }
   ]
 }

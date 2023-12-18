@@ -63,10 +63,13 @@ function offerInfo(offer){
     cardContainer.appendChild(card)
 
     //creating button click event
-    buyBtn.addEventListener('click', () => {
+    buyBtn.addEventListener('click', (e) => {
         console.log('I was clicked');
         //create alert that displays what you are purchasing 
-        confirm(`Are you sure you want to purchase ${offer.name.toLowerCase()}?`)
+        if(confirm(`Are you sure you want to purchase ${offer.name.toLowerCase()}?`) === true ){
+            buyBtn.textContent = 'Sold';
+            buyBtn.style.backgroundColor = 'grey';
+        }
         //setTimeOut for 2 seconds after purchase to confirm purchase is complete
         setTimeout(() => {
             alert('Thank you for your purchase!')
